@@ -1,0 +1,242 @@
+@import 'reset.css';
+/*aligning the whole site*/
+.wrapper {
+  max-width: 2856px;
+  margin: 3%;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 100%;
+  grid-template-areas: "header" "title" "image" "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+.main-img, .main-grid .title-block {
+  grid-area: title;
+}
+
+.blog-article, .aside {
+  grid-area: image;
+}
+
+.image-section, .blog-thumbnails {
+  grid-area: image;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "imageone imagetwo";
+}
+
+.imageone {
+  grid-area: imageone;
+  text-align: center;
+}
+
+.imagetwo {
+  grid-area: imagetwo;
+  text-align: center;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.main-img {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.joe-h1 {
+  position: absolute;
+  color: white;
+  font-size: 5em;
+  padding-top: 10%;
+  padding-left: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.scroll-h5 {
+  position: absolute;
+  color: #4a4a4a;
+  font-size: 2em;
+  padding-top: 25%;
+  padding-left: 2%;
+  font-family: "Poppins", sans-serif;
+}
+
+.photo {
+  color: #41cadd;
+  font-style: italic;
+}
+
+header {
+  overflow: auto;
+}
+
+nav {
+  overflow: auto;
+}
+nav .h1-ignis {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 2em;
+  float: left;
+  padding: 2%;
+  box-sizing: border-box;
+}
+nav .link-home, nav .link-blog, nav .link-contact {
+  float: right;
+  font-family: "Nunito", sans-serif;
+  color: #4a4a4a;
+  font-size: 0.9em;
+  text-decoration: none;
+  padding: 2%;
+  vertical-align: top;
+}
+nav .link-search {
+  float: right;
+  padding-top: 1%;
+}
+
+.search-img {
+  width: 40%;
+}
+
+.portrait, .cups, .guitar, .gorilla, .portraitbw, .graf, .tape, .woods {
+  width: 85%;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.tape-image {
+  width: 60%;
+}
+
+footer {
+  text-align: center;
+}
+
+.socials {
+  width: 5%;
+}
+
+.title-block {
+  background-color: #fff0e9;
+}
+
+.h1-blog, .h1-lorem {
+  font-size: 2em;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.blog-button {
+  background-color: #41cadd;
+  text-decoration: none;
+  padding: 1%;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.h2-blog {
+  font-family: "Poppins", sans-serif;
+  padding: 2%;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.button {
+  padding: 2%;
+}
+
+.date {
+  color: #4a4a4a;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.7em;
+  text-align: center;
+  padding: 2%;
+}
+
+.image1, .image2, .image3, .image4 {
+  text-align: center;
+  padding: 5%;
+}
+
+.p-blog {
+  padding: 2%;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.see-more {
+  color: lightgray;
+}
+
+.article-wrapper {
+  display: flex;
+}
+
+.blog-article {
+  text-align: center;
+  padding: 5%;
+}
+
+.aside {
+  padding: 5%;
+}
+
+.h3-aside {
+  font-family: "Poppins", sans-serif;
+  color: #4a4a4a;
+  padding: 5%;
+}
+
+.p-aside, .paragraph-one {
+  font-family: "Nunito", sans-serif;
+  color: #4a4a4a;
+  padding: 5%;
+}
+
+ul {
+  list-style-type: circle;
+  font-family: "Nunito", sans-serif;
+  color: #4a4a4a;
+  padding: 5%;
+}
+
+.search {
+  overflow: auto;
+}
+
+.button-search {
+  padding: 5%;
+  margin: 5%;
+  background-color: #ff6a7c;
+  text-decoration: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+@media screen and (max-width: 1020px) {
+  h1 {
+    font-size: 2em !important;
+  } 
+  h5 {
+    font-size: 1em !important;
+  } 
+}
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 1em !important;
+  } 
+  h5 {
+    font-size: 0.8em !important;
+  } 
+}
+/*# sourceMappingURL=style.css.map */

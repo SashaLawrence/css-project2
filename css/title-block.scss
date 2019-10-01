@@ -1,0 +1,20 @@
+// Variables
+$font-straight: 'Poppins', sans-serif;
+$font-round: 'Nunito', sans-serif;
+$heading-color: black;
+$text-color: #4a4a4a;
+$light-pink: #fff0e9;
+
+
+
+.title-block {
+	background-color: $light-pink;
+}
+
+.h1-blog, .h1-lorem{ 
+	font-size: 2em;
+	font-family: $font-straight;
+	text-align: center;
+	padding: 2%;
+	box-sizing: border-box;
+}

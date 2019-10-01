@@ -1,0 +1,54 @@
+
+// Variables
+$font-straight: 'Poppins', sans-serif;
+$font-round: 'Nunito', sans-serif;
+$heading-color: black;
+$text-color: #4a4a4a;
+$light-pink: #fff0e9;
+
+
+
+// Styles
+header {
+	overflow: auto;
+
+}
+
+nav {
+// the nav header left
+	overflow: auto;
+	.h1-ignis {
+	  font-family: $font-straight;
+	  font-weight:bold;
+	  color: $heading-color;
+	  font-size: 2em;
+	  float:left;
+	  padding: 2%;
+	  box-sizing: border-box;
+	 
+	  // the links right
+
+	}
+
+	.link-home, .link-blog, .link-contact, {
+		float:right;
+		font-family: $font-round;
+		color: $text-color;
+		font-size: 0.90em;
+		text-decoration: none;
+		padding: 2%;
+		vertical-align:top;
+	}	
+
+	.link-search {
+		float: right;
+		padding-top: 1%;
+	}
+}// nav close
+
+
+// maglass resize
+
+.search-img {
+	width: 40%
+}

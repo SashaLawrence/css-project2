@@ -1,0 +1,41 @@
+// Variables
+$font-straight: 'Poppins', sans-serif;
+$font-round: 'Nunito', sans-serif;
+$heading-color: black;
+$text-color: #4a4a4a;
+$light-pink: #fff0e9;
+$turquise: #41cadd;
+
+// Styles
+
+.main-img {
+	position: relative;
+
+		} .hero-img {
+			// width: 2675px;
+			width: 100%;
+		} .joe-h1, {
+			position: absolute;
+			color: white;
+			font-size: 5em;
+			padding-top: 10%;
+			padding-left:2%;
+			font-family: $font-straight;
+		} .scroll-h5 {
+			position: absolute;
+			color: $text-color;
+			font-size: 2em;
+			padding-top: 25%;
+			padding-left:2%;
+			font-family: $font-straight;
+		} 	.photo {
+			color: $turquise;
+			font-style: italic;
+}
+
+
+
+
+
+
+

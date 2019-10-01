@@ -1,0 +1,46 @@
+// Variables
+$font-straight: 'Poppins', sans-serif;
+$font-round: 'Nunito', sans-serif;
+$heading-color: black;
+$text-color: #4a4a4a;
+$light-pink: #fff0e9;
+
+
+.h2-blog {
+	font-family: $font-straight;
+	padding: 2%;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.button {
+	padding: 2%;
+}
+
+.date {
+	color: $text-color;
+	font-family: $font-straight;
+	font-size: 0.7em;
+	text-align: center;
+	padding: 2%;
+}
+
+
+// articles
+
+.image1, .image2, .image3, .image4 {
+	text-align: center;
+	padding: 5%;
+	}
+
+.p-blog {
+	padding: 2%;
+	color: $text-color;
+	text-align: center;
+	}
+
+.see-more {
+	color: lightgray;
+}
+
+

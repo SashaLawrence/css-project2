@@ -1,0 +1,57 @@
+// Variables
+$font-straight: 'Poppins', sans-serif;
+$font-round: 'Nunito', sans-serif;
+$heading-color: black;
+$text-color: #4a4a4a;
+$light-pink: #fff0e9;
+$hot-pink: #ff6a7c;
+
+
+.article-wrapper {
+	display: flex;
+
+}
+
+.blog-article {
+	text-align: center;
+	padding: 5%;
+}
+
+.aside {
+	padding: 5%;
+}
+
+.h3-aside {
+font-family: $font-straight;
+color: $text-color;
+padding: 5%;
+}
+
+.p-aside, .paragraph-one {
+	font-family: $font-round;
+	color: $text-color;
+	padding: 5%;
+}
+
+ul {
+	list-style-type: circle;
+	font-family: $font-round;
+	color: $text-color;
+	padding:5%;
+
+}
+.search {
+	overflow: auto;}
+
+.button-search {
+padding: 5%; 
+margin: 5%;
+background-color:$hot-pink;
+text-decoration: none;
+color: white;
+font-family: $font-round; 
+}
+
+
+
+
